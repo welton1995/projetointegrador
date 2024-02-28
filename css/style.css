@@ -16,7 +16,7 @@ header {
 
 main {
   width: 100vw;
-  height: 55vh;
+  height: 62.7vh;
 }
 
 .logo {
@@ -64,12 +64,10 @@ main {
   align-items: center;
 }
 
-
-
 @media (max-width: 480px) {
   main {
     width: 100vw;
-    height: 60vh;
+    height: 70.2vh;
   }
 }
 
