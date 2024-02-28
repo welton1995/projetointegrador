@@ -91,7 +91,7 @@ textarea {
 }
 
 button {
-  width: 362px;
+  width: 535px;
   margin: 0.5rem;
   padding: 0.5rem 0;
   border-radius: 6px;
@@ -99,6 +99,7 @@ button {
   color: #fff;
   background-color: #2e948a;
   font-weight: 800;
+  cursor: pointer;
 }
 
 /* =============== */
@@ -209,7 +210,7 @@ footer {
   }
 
   button {
-    width: 350px;
+    width: 362px;
     color: #fff;
     border: none;
     border-radius: 6px;
