@@ -17,6 +17,46 @@ header {
 main {
   width: 100vw;
   height: 62.7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  width: 450px;
+  height: 300px;
+}
+
+#btnform{
+  width: 450px;
+  height: 40px;
+  margin: 0.5rem;
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color: #2e948a;
+  font-weight: 800;
+}
+
+#form input {
+  margin-top: 0.5rem;
+  width: 450px;
+  height: 40px;
+}
+
+#cadastrar {
+font-size: 12px;
+text-decoration: none;
+}
+
+.container {
+  margin: 1rem;
 }
 
 .logo {
@@ -57,17 +97,34 @@ nav li a {
   text-transform: uppercase;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 @media (max-width: 480px) {
   main {
     width: 100vw;
     height: 72vh;
+  }
+
+  #form {
+    width: 375px;
+  }
+
+  #form input {
+    margin-top: 0.5rem;
+    width: 370px;
+    height: 40px;
+    border-radius: 6px;
+  }
+
+  #btnform{
+    width: 370px;
+    height: 40px;
+    margin: 0.5rem;
+    padding: 0.5rem 0;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #2e948a;
+    font-weight: 800;
   }
 }
 

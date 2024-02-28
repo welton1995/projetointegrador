@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2e948a">
-    <title>Projeto integrador</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/contato.css">
+
 </head>
 
 <body>
     <header>
         <a href="./index.html">
             <div class="logo">
-               <a href="#"><h2>Logo</h2></a>
+                <h2>Logo</h2>
             </div>
         </a>
 
@@ -24,24 +24,27 @@
                 <li><a href="./contato.html">contato</a></li>
             </ul>
         </nav>
+
+
+
     </header>
+
     <main>
+        <section class="container">
+            <div class="contato">
 
-        <div class="container">
-            <h2>Projeto em desenvolvimento</h2>
-        </div>
+                <h2>Contato</h2>
+                <form action="">
+                    <input type="text" name="nome" placeholder="nome">
 
-        <form>
-            <div id="form">
-                E-mail:<br>
-                <input type="email" required ="email" placeholder="exemplo@email.com"><br><br>
-                Senha:<br>
-                <input type="password" required ="senha"><br><br>
-                <button id="btnform">Entrar</button><br><br>
-                <a id='cadastrar' href="#">Cadastre-se</a>
-            </div>
-        </form>
+                    <input type="email" name="email" placeholder="email">
 
+                    <textarea name="mensagem" id="" cols="30" rows="10" placeholder="mensagem"></textarea>
+
+                    <button>Enviar</button>
+                </form>
+
+        </section>
     </main>
 
     <footer>
