@@ -17,6 +17,27 @@ header {
 main {
   width: 100vw;
   height: 62.7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h2 {
+  padding: 1rem;
+}
+
+.container p {
+  text-align: justify;
+  text-indent: 2.5rem;
 }
 
 .logo {
@@ -57,12 +78,8 @@ nav li a {
   text-transform: uppercase;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 @media (max-width: 480px) {
   main {
