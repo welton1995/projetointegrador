@@ -23,7 +23,6 @@ cadastrar.addEventListener('click', (event)=> {
     return alert("Senhas não conferem!");
   }
 
-
   try {
     teste = async ()=> {
       const raw = {

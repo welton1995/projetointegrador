@@ -32,6 +32,11 @@ main {
   height: 300px;
 }
 
+#loading {
+  width: 10%;
+  display: none;
+}
+
 #btnform{
   width: 450px;
   height: 40px;
