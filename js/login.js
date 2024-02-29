@@ -41,18 +41,15 @@ entrar.addEventListener('click', (event)=> {
 
   if(conteudo.msg == "Autenticado") {
     window.location.href="./sobre.html"
+    let token = localStorage.setItem('token', JSON.stringify(conteudo.token));
+    console.log(conteudo.token);
     loading.style.display = 'none';
     return;
   }
 
-  if(conteudo == "Senha inválida!") {
+  if(conteudo == "Senha inválida!" || conteudo == "Usuário não cadastrado!") {
     alert(conteudo)
-    window.location.href="./index.html"
-    return;
-  }
-  if(conteudo == "Usuário não cadastrado!") {
-    alert(conteudo)
-    window.location.href="./index.html";
+    window.location.reload();
     return;
   }
 
@@ -62,5 +59,5 @@ entrar.addEventListener('click', (event)=> {
   } catch (error) {
     return console.log(error);
   }
-  teste()
+  teste();
 });
