@@ -28,7 +28,19 @@ try {
     return;
   }
 
-  console.log(conteudo)
+  let usuarios = conteudo.usuarios.reverse();
+
+  usuarios.forEach((elemento)=>{
+    let UserComponente = document.createElement(`div`);
+    let UserNameTag = document.createElement(`b`);
+
+    UserNameTag.innerHTML = `${elemento.nome.split(" ")[0]}`
+
+    UserComponente.appendChild(UserNameTag);
+    container.appendChild(UserComponente);
+  });
+
+  console.log(conteudo.usuarios)
   container.style.display = "block";
     }
   } catch(error) {
@@ -43,5 +55,5 @@ try {
     alert('Sesão expirada! Entre novamente!');
     window.location.reload();
     return
-  }, 60000);
+  }, 600000);
 

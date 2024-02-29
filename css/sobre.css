@@ -14,6 +14,10 @@ header {
   height: 18vh;
 }
 
+hr {
+  margin: 1rem;
+}
+
 main {
   width: 100vw;
   height: 62.7vh;
@@ -23,7 +27,7 @@ main {
   align-items: center;
 }
 
-.container {
+#container {
   width: 80%;
   display: none;
   justify-content: center;
@@ -31,8 +35,16 @@ main {
   flex-direction: column;
 }
 
-.container h2 {
+#container h2 {
   padding: 1rem;
+}
+
+#container h3 {
+  padding-bottom: 1rem;
+}
+
+#container b {
+  line-height: 1.5rem;
 }
 
 .container p {
